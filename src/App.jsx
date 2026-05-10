@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import { LanguageProvider } from './context/LanguageContext'
 import Navbar from './components/Navbar'
@@ -33,13 +33,13 @@ function AnimatedRoutes() {
 export default function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter>
+      <HashRouter>
         <ScrollToTop />
         <Navbar />
         <LineFloatButton />
         <AnimatedRoutes />
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </LanguageProvider>
   )
 }
