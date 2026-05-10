@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    @apply font-body text-ink bg-ivory antialiased;
+    margin: 0;
+    overflow-x: hidden;
+    /* Use lining (same-height) numerals everywhere — fixes old-style numerals in serif fonts */
+    font-variant-numeric: lining-nums;
+  }
+  #root { width: 100%; }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+}
