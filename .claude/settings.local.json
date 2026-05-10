@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vite *)",
+      "WebSearch",
+      "WebFetch(domain:www.allonline.7eleven.co.th)",
+      "WebFetch(domain:aroysoi8.com)",
+      "Bash(npm run *)",
+      "PowerShell(npm run build 2>&1)"
+    ]
+  }
+}

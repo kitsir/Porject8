@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="7-Eleven">
+  <rect width="200" height="200" rx="28" fill="#ffffff"/>
+  <!-- top orange bar of the 7 -->
+  <path d="M44 46 H132 Q142 46 138 54 L122 80 H78 Q70 80 70 72 V58 Q70 46 58 46 Z" fill="#F37021"/>
+  <!-- red curl/right side of 7 -->
+  <path d="M132 46 Q156 46 156 70 V134 Q156 156 134 156 Q114 156 114 138 V96 L138 56 Q142 50 136 46 Z" fill="#EE1C25"/>
+  <!-- green ELEVEN band -->
+  <rect x="36" y="96" width="128" height="34" fill="#008855"/>
+  <text x="100" y="121"
+        font-family="'Arial Black','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="24" font-weight="900"
+        fill="#ffffff" text-anchor="middle" letter-spacing="0.5">ELEVEn</text>
+  <!-- bottom red square -->
+  <rect x="84" y="148" width="32" height="30" fill="#EE1C25"/>
+</svg>
